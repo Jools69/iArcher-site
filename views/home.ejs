@@ -1,0 +1,198 @@
+<% layout('./layout/boilerplate') %>
+<div class='hero-container'>
+    <div class="mb-3">
+        <div class="hero row">
+            <div class="col-md-5 py-3">
+                <h1 class="hero-title">iArcher</h1>
+                <div class="row">
+                    <p class="hero-subtitle">
+                        A handy iPhone companion for every target archer.
+                    </p>
+                </div>
+                <div class="row">
+                    <p class="hero-appstore">Available on the App Store for the iPhone</p>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-5 col-sm-12">
+                        <img src="/images/Download_on_the_App_Store.svg" alt="Download badge" class="img-fluid mx-auto d-block">
+                    </div>
+                    <div class="col-md-7">
+                        <img src="/images/qr-code.jpg.png" alt="QR Code" class="img-fluid hero-qr-code">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6 hero-icon align-self-center">
+                <img class="img-fluid" src="/images/iarcher-hero-logo.png" alt="">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row hero-testimonials my-3 pt-5">
+                <div class="col-md-4">
+                    <div class="card p-2 h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">3dg3</h5>
+                            <p class="card-text pt-2 testimonial">After reading all the reviews I decided to give it a try.
+                                Well worth it.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-2 h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Suze92</h5>
+                            <p class="card-text pt-2 testimonial">Love this app. Easy to use, has all the rounds I need but
+                                also easy to set up custom rounds</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-2 h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Benthebow</h5>
+                            <p class="card-text pt-2 testimonial">A fantastic application. Very easy to use great for
+                                keeping all your scores for each round.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <div class="main-container">
+        <h3>What does it do?</h3>
+        <h2>Score Sheets</h2>
+        <div class="info-container">
+            <div id="scoresheet-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="10000">
+                <div class="carousel-indicators">
+                    <% for ([i, pane] of scoringInfoPanes.entries()) { %>
+                        <button type="button" data-bs-target="#scoresheet-carousel" data-bs-slide-to="<%=i%>"
+                            class="<%= i === 0 ? 'active' : ''%>" aria-current="<%= i === 0 ? 'true' : 'false'%>"
+                            aria-label="Slide <%=i+1%>"></button>
+                    <% } %>
+                </div>
+                <div class="carousel-inner">
+                    <% for ([i, pane] of scoringInfoPanes.entries()) { %>
+                        <div class="carousel-item <%= i === 0 ? 'active' : '' %>">
+                            <div class="row">
+                                <div class="col-lg-6 scoring-image align-self-center">
+                                    <picture>
+                                        <source media="(max-width: 991px)" srcset="<%=pane.smlImg%>">
+                                        <source media="(min-width: 992px)" srcset="<%=pane.img%>">
+                                        <img class="img-fluid" src="<%=pane.img%>"
+                                        height="565px" alt="<%=pane.alt%>">
+                                    </picture>
+                                </div>
+                                <div class="col-lg-6 info scoring-info">
+                                    <h3><%=pane.header%></h3>
+                                    <% for (para in pane.paras) { %>
+                                        <p><%=pane.paras[para]%></p>
+                                    <% } %>
+                                </div>
+                            </div>
+                        </div>
+                    <% } %>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#scoresheet-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#scoresheet-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <h2>Sight Marks</h2>
+        <div class="info-container">
+            <div id="sightmarks-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="10000">
+                <div class="carousel-indicators">
+                    <% for ([i, pane] of sightmarksInfoPanes.entries()) { %>
+                        <button type="button" data-bs-target="#sightmarks-carousel" data-bs-slide-to="<%=i%>"
+                            class="<%= i === 0 ? 'active' : ''%>" aria-current="<%= i === 0 ? 'true' : 'false'%>"
+                            aria-label="Slide <%=i+1%>"></button>
+                    <% } %>
+                </div>
+                <div class="carousel-inner">
+                    <% for ([i, pane] of sightmarksInfoPanes.entries()) { %>
+                        <div class="carousel-item <%= i === 0 ? 'active' : '' %>">
+                            <div class="row">
+                                <div class="col-lg-6 sightmarks-image align-self-center order-1 order-lg-2">
+                                    <picture>
+                                        <source media="(max-width: 991px)" srcset="<%=pane.smlImg%>">
+                                        <source media="(min-width: 992px)" srcset="<%=pane.img%>">
+                                        <img class="img-fluid" src="<%=pane.img%>"
+                                        height="565px" alt="<%=pane.alt%>">
+                                    </picture>
+                                </div>
+                                <div class="col-lg-6 info sightmarks-info order-2 order-lg-1">
+                                    <h3><%=pane.header%></h3>
+                                    <% for (para in pane.paras) { %>
+                                        <p><%=pane.paras[para]%></p>
+                                    <% } %>
+                                </div>
+                            </div>
+                        </div>
+                    <% } %>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#sightmarks-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#sightmarks-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <h2>Personal Bests</h2>
+        <div class="info-container">
+            <div id="pb-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="10000">
+                <div class="carousel-indicators">
+                    <% for ([i, pane] of pbInfoPanes.entries()) { %>
+                        <button type="button" data-bs-target="#pb-carousel" data-bs-slide-to="<%=i%>"
+                            class="<%= i === 0 ? 'active' : ''%>" aria-current="<%= i === 0 ? 'true' : 'false'%>"
+                            aria-label="Slide <%=i+1%>"></button>
+                    <% } %>
+                </div>
+                <div class="carousel-inner">
+                    <% for ([i, pane] of pbInfoPanes.entries()) { %>
+                        <div class="carousel-item <%= i === 0 ? 'active' : '' %>">
+                            <div class="row">
+                                <div class="col-lg-6 pb-image align-self-center">
+                                    <picture>
+                                        <source media="(max-width: 991px)" srcset="<%=pane.smlImg%>">
+                                        <source media="(min-width: 992px)" srcset="<%=pane.img%>">
+                                        <img class="img-fluid" src="<%=pane.img%>"
+                                        height="565px" alt="<%=pane.alt%>">
+                                    </picture>
+                                </div>
+                                <div class="col-lg-6 info pb-info">
+                                    <h3><%=pane.header%></h3>
+                                    <% for (para in pane.paras) { %>
+                                        <p><%=pane.paras[para]%></p>
+                                    <% } %>
+                                </div>
+                            </div>
+                        </div>
+                    <% } %>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#pb-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#pb-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

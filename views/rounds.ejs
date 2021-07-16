@@ -1,0 +1,63 @@
+<!-- Helper functions -->
+<%  
+    function mapScoretype(scoretype) {
+        switch (scoretype) {
+            case 'FiveZone':
+                return {
+                    description: 'Five Zone (1, 3, 5, 7, 9)',
+                    maxArrow: 9
+                };
+                break;
+            default:
+                return {
+                    description: 'Unknown',
+                    maxArrow: 0
+                };
+        }
+    }
+%>
+
+<% layout('./layout/boilerplate') %>
+<h1 class="rounds-title">Included Rounds</h1>
+<h5 class="rounds-subtitle">iArcher comes with <%= roundList.rounds.length %> pre-configured rounds, including all of the recognised Archery GB and World Archery rounds</h5>
+<div class="rounds-container">
+
+
+    <div class="scrollableContainer">
+        <% for (section of roundSections) { %>
+            <h2 class="sectionHeading"><%= section.name %> Rounds</h2>
+            <div class="accordion" id="<%= section.id %>">
+                <% for (round of roundList.rounds.filter( r => (r.type === section.type && r.system === section.system) )) { %>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="<%=`roundHeading${round.id}`%>">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse<%=round.id%>" aria-expanded="false" aria-controls="collapse<%=round.id%>">
+                      <%= round.roundName %> 
+                    </button>
+                  </h2>
+                  <div id="collapse<%=round.id%>" class="accordion-collapse collapse" aria-labelledby="<%=`roundHeading${round.id}`%>" data-bs-parent="#<%= section.id %>">
+                    <div class="accordion-body">
+                        <div class="card roundDetails">
+                            <div class="card-body">
+                              <h5 class="card-title"><%= round.roundName %></h5>
+                              <p class="card-text">An <%= round.type %> <%= round.system %> round<br>Uses <%= mapScoretype(round.scoreType).description %> scoring<br>Ends are shot in groups of <%= round.endSize %> arrows</p>
+                              <p>Distances:</p>
+                              <ul class="list-group list-group-flush">
+                              <% for (distance of round.distances) { %> 
+                                <li class="list-group-item"><span class="distanceEntry"><%= `${distance.measurement} ${round.system === 'Imperial' ? 'Yards' : 'Metres'}`%></span></li>
+                              <% } %> 
+                            </ul>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">An item</li>
+                              <li class="list-group-item">A second item</li>
+                              <li class="list-group-item">A third item</li>
+                            </ul>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+                <% } %> 
+              </div>
+        <% } %>
+    </div>
+</div>

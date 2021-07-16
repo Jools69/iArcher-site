@@ -1,0 +1,329 @@
+:root {
+    --primary-colour: #002D8A;
+    --secondary-colour: #0041C8;
+    --tertiary-colour: #707070;
+    --scoring-info-clr: #767676;
+    --sightmarks-info-clr: #A8A8A8;
+    --personalbest-info-clr: #505050;
+    --accent-colour-dark: rgb(47, 0, 109);
+    --accent-colour-light: rgb(124, 28, 250);
+}
+
+* {
+ box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    background: radial-gradient(circle at 0%, white 0%, white 40%, rgb(247, 247, 247) 50%, rgba(224,224,224,1) 60%, rgba(83,83,83,1) 100%);
+    /* background: radial-gradient(circle at 0%, rgba(250, 250, 204, 1) 0%, rgb(254, 147, 147) 33%, rgb(97, 140, 250) 49%, rgb(106, 106, 106) 72%, white 93%,  rgb(173, 255, 173) 100%); */
+    /* background: radial-gradient(circle at 0%, white 0%, rgb(210, 255, 252) 40%, rgb(109, 252, 174) 50%, rgba(60, 0, 80,1) 100%); */
+    background-attachment: fixed;
+}
+
+/* ======================================== */
+/* ======== HOME SCREEN STYLES ========== */
+/* ======================================== */
+
+.hero-container {
+    width: 80%;
+    margin: 3em auto;
+}
+
+h1 {
+    font-size: 7vmin;
+    font-weight: bold;
+    color: var(--primary-colour);
+}
+
+.hero-subtitle {
+    font-size: 1.5em;
+    /* font-size: 1.75vmin; */
+    font-weight: 200;
+    color: var(--secondary-colour);
+}
+
+.hero-appstore {
+    font-size: 1em;
+    font-weight: bold;
+    color: var(--tertiary-colour);
+}
+
+.testimonial {
+    position: relative;
+}
+
+.testimonial::before {
+    content: open-quote;
+    padding-right: 0.2em;
+}
+
+.testimonial::after {
+    content: close-quote;
+    padding-left: 0.2em;
+}
+
+.testimonial::before,
+.testimonial::after {
+    position: relative;
+    top: 0.2em;
+    font-family: sans-serif;
+    font-size: 2em;
+    line-height: 0.1em;
+    font-weight: 100;
+    color: var(--secondary-colour);
+}
+
+.hero-testimonials .card-title {
+    color: var(--secondary-colour);
+    font-size: 1em;
+}
+
+.hero-testimonials .card-text {
+    color: var(--tertiary-colour);
+}
+
+.hero-testimonials .card {
+    box-shadow: 3px 3px 5px var(--tertiary-colour);
+}
+
+.main-container {
+    width: 90%;
+    margin: 5em auto;
+    text-align: center;
+}
+
+.main-container p {
+    text-align: left;
+    line-height: 1.75em;
+    letter-spacing: -0.025em;
+    margin-bottom: 2em;
+}
+
+.main-container h3 {
+    color: var(--tertiary-colour);
+    font-weight: medium;
+}
+
+.main-container h2 {
+    width: 95%;
+    margin: 1em auto;
+    padding: 0.75em;
+    color: white;
+    /* background-color: var(--primary-colour); */
+    background: linear-gradient(170deg, var(--primary-colour), var(--secondary-colour)) ;
+    font-size: 1.5em;
+    font-weight: medium;
+    text-transform: uppercase;
+}
+
+.info-container {
+    width: 60%;
+    margin: 3em auto;
+}
+
+.info {
+    padding: 2em;
+}
+
+.info h3 {
+    font-weight: medium;
+    margin-bottom: 1.5em;
+}
+
+.info p>:last-child {
+    margin-bottom: 0.5em;
+}
+
+.info-container img {
+    border: 1px solid var(--primary-colour);
+}
+
+.scoring-info {
+    background-color: var(--scoring-info-clr);
+    color: white;
+}
+
+.sightmarks-info {
+    background-color: var(--sightmarks-info-clr);
+    color: rgb(60, 60, 60);
+}
+
+.pb-info {
+    background-color: var(--personalbest-info-clr);
+    color: white;
+}
+
+.scoring-info h3,
+.pb-info h3 {
+    color: white;
+}
+
+.sightmarks-info h3 {
+    color: rgb(60, 60, 60);
+}
+
+.carousel-control-prev{
+    margin-left: -100px;
+}
+
+.carousel-control-next {
+    margin-right: -100px;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+/* ======================================== */
+/* ======== ROUNDS SCREEN STYLES ========== */
+/* ======================================== */
+
+.rounds-title {
+    font-size: 4em;
+    text-align: center;
+}
+
+.rounds-subtitle {
+    margin: 2em auto;
+    max-width: 80%;
+    color: var(--tertiary-colour);
+    text-align: center;
+}
+
+.rounds-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.scrollableContainer {
+    height: 80vh;
+    overflow-y: scroll;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.sectionHeading {
+    margin-bottom: 0;
+    text-align: center;
+    background: linear-gradient(170deg, var(--accent-colour-dark), var(--accent-colour-light));
+    color: white;
+    padding: 0.5em;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.accordion-button,
+.accordion-button:not(.collapsed) {
+    background-color: var(--primary-colour);
+    color: white;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.accordion-body {
+    background: linear-gradient(100deg, white 0%, white 60%, rgba(224,224,224,1) 80%, rgb(133, 133, 133) 100%);
+}
+
+.roundDetails {
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px rgb(218, 218, 218);
+}
+
+.card-title {
+    text-align: center;
+    color: var(--tertiary-colour);
+    padding-bottom: 0.5em;
+    width: 60%;
+    margin: 0.75em auto;
+    border-bottom: 3px solid var(--secondary-colour);
+    text-shadow: 2px 2px 7px rgb(141, 141, 141);
+}
+
+.card-text {
+    font-weight: 300;
+    color: var(--tertiary-colour);
+    text-align: center;
+}
+
+/* ======================================== */
+/* ========== RESPONSIVE STYLES =========== */
+/* ======================================== */
+
+/* Large screens and below */
+/* ======================= */
+
+@media screen and (max-width: 1199px) {
+    .info-container {
+        width: 75%;
+        margin: 2.5em auto;
+    }
+}
+
+/* Small screens and below */
+/* ======================= */
+
+@media screen and (max-width: 767px) {
+
+    .hero-container {
+        margin: 2em auto;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 6em;
+    }
+
+    .hero-qr-code {
+        display: none;
+    }
+
+    .hero-icon {
+        width: 80%;
+        margin: 2em auto;
+    }
+
+    .info-container {
+        width: 90%;
+        margin: 2em auto;
+    }
+
+    .info {
+        min-height: 35vh;
+        padding-bottom: 1em;
+    }
+
+    .carousel-control-prev{
+        margin-left: -50px;
+    }
+    
+    .carousel-control-next {
+        margin-right: -50px;
+    }
+}
+
+/* Medium screens and below */
+/* ======================== */
+
+@media screen and (max-width: 991px) {
+    .info {
+        min-height: 32vh;
+        padding-bottom: 1em;
+    }
+
+    .info h3 {
+        margin-bottom: 1em;
+    }
+
+    .rounds-title {
+        font-size: 2.5em;
+        text-align: center;
+    }
+}

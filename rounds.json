@@ -1,0 +1,2539 @@
+{
+    "rounds": [
+        {
+            "id": 0,
+            "roundName": "York",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 100,
+                    "dozens": 6
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 80,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 2
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "roundName": "Hereford",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 80,
+                    "dozens": 6
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "roundName": "Bristol I",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 80,
+                    "dozens": 6
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 2
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "roundName": "Bristol II",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 6
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 2
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "roundName": "Bristol III",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 6
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 2
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "roundName": "Bristol IV",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 6
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 20,
+                    "dozens": 2
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "roundName": "Bristol V",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 6
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 20,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 10,
+                    "dozens": 2
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "roundName": "St. George",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 100,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 80,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "roundName": "Albion",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 80,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "roundName": "Windsor",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "roundName": "Short Windsor",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "roundName": "Junior Windsor",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 20,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "roundName": "Short Junior Windsor",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 20,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 10,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "roundName": "New Western",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 100,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 80,
+                    "dozens": 4
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "roundName": "Long Western",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 80,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 4
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "roundName": "Western",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 4
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "roundName": "Short Western",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 4
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "roundName": "Junior Western",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 4
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "roundName": "Short Junior Western",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 20,
+                    "dozens": 4
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "roundName": "American",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 2.5
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 2.5
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 2.5
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "roundName": "St. Nicholas",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "roundName": "New National",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 100,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 80,
+                    "dozens": 2
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "roundName": "Long National",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 80,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 2
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "roundName": "National",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 2
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "roundName": "Short National",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 2
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "roundName": "Junior National",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 2
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "roundName": "Short Junior National",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 4
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 20,
+                    "dozens": 2
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "roundName": "New Warwick",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 100,
+                    "dozens": 2
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 80,
+                    "dozens": 2
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "roundName": "Long Warwick",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 80,
+                    "dozens": 2
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 2
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "roundName": "Warwick",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 2
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 2
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "roundName": "Short Warwick",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 2
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 2
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "roundName": "Junior Warwick",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 2
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 2
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "roundName": "Short Junior Warwick",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 2
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 20,
+                    "dozens": 2
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "roundName": "252 Green 10 Yards",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 10,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "roundName": "252 White 20 Yards",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 20,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "roundName": "252 Black 30 Yards",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "roundName": "252 Blue 40 Yards",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 37,
+            "roundName": "252 Red 50 Yards",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "roundName": "252 Bronze 60 Yards",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 39,
+            "roundName": "252 Silver 80 Yards",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 80,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 40,
+            "roundName": "252 Gold 100 Yards",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "FiveZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 100,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "roundName": "Clout 180 Yards",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "GNASClout",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "",
+                    "measurement": 180,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "roundName": "Clout 140 Yards",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "GNASClout",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "",
+                    "measurement": 140,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "roundName": "Clout 120 Yards",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "GNASClout",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "",
+                    "measurement": 120,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "roundName": "Clout 100 Yards",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "GNASClout",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "",
+                    "measurement": 100,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 45,
+            "roundName": "Clout 80 Yards",
+            "system": "Imperial",
+            "type": "Outdoor",
+            "scoreType": "GNASClout",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "",
+                    "measurement": 80,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 46,
+            "roundName": "Portsmouth",
+            "system": "Imperial",
+            "type": "Indoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "60cm",
+                    "measurement": 20,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 47,
+            "roundName": "Double Portsmouth",
+            "system": "Imperial",
+            "type": "Indoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "60cm",
+                    "measurement": 20,
+                    "dozens": 5
+                },
+                {
+                    "targetFace": "60cm",
+                    "measurement": 20,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 48,
+            "roundName": "Portsmouth 3-spot",
+            "system": "Imperial",
+            "type": "Indoor",
+            "scoreType": "FiveZoneHigh",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "60cm 3-Spot",
+                    "measurement": 20,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 49,
+            "roundName": "Double Portsmouth 3-spot",
+            "system": "Imperial",
+            "type": "Indoor",
+            "scoreType": "FiveZoneHigh",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "60cm 3-Spot",
+                    "measurement": 20,
+                    "dozens": 5
+                },
+                {
+                    "targetFace": "60cm 3-Spot",
+                    "measurement": 20,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 50,
+            "roundName": "Worcester",
+            "system": "Imperial",
+            "type": "Indoor",
+            "scoreType": "FiveZoneLow",
+            "endSize": 5,
+            "distances": [
+                {
+                    "targetFace": "16inch Worcester",
+                    "measurement": 20,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 51,
+            "roundName": "Double Worcester",
+            "system": "Imperial",
+            "type": "Indoor",
+            "scoreType": "FiveZoneLow",
+            "endSize": 5,
+            "distances": [
+                {
+                    "targetFace": "16inch Worcester",
+                    "measurement": 20,
+                    "dozens": 5
+                },
+                {
+                    "targetFace": "16inch Worcester",
+                    "measurement": 20,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 52,
+            "roundName": "Bray I",
+            "system": "Imperial",
+            "type": "Indoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "40cm",
+                    "measurement": 20,
+                    "dozens": 2.5
+                }
+            ]
+        },
+        {
+            "id": 53,
+            "roundName": "Bray II",
+            "system": "Imperial",
+            "type": "Indoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "60cm",
+                    "measurement": 25,
+                    "dozens": 2.5
+                }
+            ]
+        },
+        {
+            "id": 54,
+            "roundName": "Bray II - Compound",
+            "system": "Imperial",
+            "type": "Indoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "60cm",
+                    "measurement": 25,
+                    "dozens": 2.5
+                }
+            ]
+        },
+        {
+            "id": 55,
+            "roundName": "FITA Gents",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 90,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 70,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 50,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "roundName": "WA 1440 Gents",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 90,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 70,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 50,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 57,
+            "roundName": "FITA Ladies",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 70,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 50,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 58,
+            "roundName": "WA 1440 Ladies",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 70,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 50,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 59,
+            "roundName": "FITA Cadet Ladies",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 40,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 60,
+            "roundName": "WA 1440 Cadet Ladies",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 40,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 61,
+            "roundName": "Metric I",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 70,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 50,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 62,
+            "roundName": "Metric II",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 40,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 63,
+            "roundName": "Metric III",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 20,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 64,
+            "roundName": "Metric IV",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 20,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 10,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 65,
+            "roundName": "Metric V",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 20,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 15,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 10,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 66,
+            "roundName": "FITA 900",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 2.5
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 2.5
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 2.5
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "roundName": "FITA 70m",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 70,
+                    "dozens": 6
+                }
+            ]
+        },
+        {
+            "id": 68,
+            "roundName": "FITA 60m",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 6
+                }
+            ]
+        },
+        {
+            "id": 69,
+            "roundName": "FITA 50m 80cm",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "80cm",
+                    "measurement": 50,
+                    "dozens": 6
+                }
+            ]
+        },
+        {
+            "id": 70,
+            "roundName": "Half FITA Gents",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 90,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 70,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 50,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 1.5
+                }
+            ]
+        },
+        {
+            "id": 71,
+            "roundName": "Half FITA Ladies",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 70,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 50,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 1.5
+                }
+            ]
+        },
+        {
+            "id": 72,
+            "roundName": "Half FITA Cadet Ladies",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 40,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 1.5
+                }
+            ]
+        },
+        {
+            "id": 73,
+            "roundName": "Half Metric I",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 70,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 50,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 1.5
+                }
+            ]
+        },
+        {
+            "id": 74,
+            "roundName": "Half Metric II",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 40,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 1.5
+                }
+            ]
+        },
+        {
+            "id": 75,
+            "roundName": "Half Metric III",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 20,
+                    "dozens": 1.5
+                }
+            ]
+        },
+        {
+            "id": 76,
+            "roundName": "Half Metric IV",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 20,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 10,
+                    "dozens": 1.5
+                }
+            ]
+        },
+        {
+            "id": 77,
+            "roundName": "Half Metric V",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 20,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 15,
+                    "dozens": 1.5
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 10,
+                    "dozens": 1.5
+                }
+            ]
+        },
+        {
+            "id": 78,
+            "roundName": "Long Metric Gents",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 90,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 70,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 79,
+            "roundName": "Long Metric Ladies",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 70,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 80,
+            "roundName": "Long Metric I",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 70,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 81,
+            "roundName": "Long Metric II",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 82,
+            "roundName": "Long Metric III",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 83,
+            "roundName": "Long Metric IV",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 84,
+            "roundName": "Long Metric V",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 20,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 85,
+            "roundName": "Short Metric",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "80cm",
+                    "measurement": 50,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 86,
+            "roundName": "Short Metric I",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "80cm",
+                    "measurement": 50,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 87,
+            "roundName": "Short Metric II",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "80cm",
+                    "measurement": 40,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 88,
+            "roundName": "Short Metric III",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 20,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 89,
+            "roundName": "Short Metric IV",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "80cm",
+                    "measurement": 20,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 10,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 90,
+            "roundName": "Short Metric V",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "80cm",
+                    "measurement": 15,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "80cm",
+                    "measurement": 10,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 91,
+            "roundName": "FITA Standard Bow",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 92,
+            "roundName": "WA 900",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 2.5
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 2.5
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 40,
+                    "dozens": 2.5
+                }
+            ]
+        },
+        {
+            "id": 93,
+            "roundName": "WA 70m",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 70,
+                    "dozens": 6
+                }
+            ]
+        },
+        {
+            "id": 94,
+            "roundName": "WA 60m",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "dozens": 6
+                }
+            ]
+        },
+        {
+            "id": 95,
+            "roundName": "WA 50m",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "80cm",
+                    "measurement": 50,
+                    "dozens": 6
+                }
+            ]
+        },
+        {
+            "id": 96,
+            "roundName": "WA 50m Compound",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "SixZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "80cm",
+                    "measurement": 50,
+                    "dozens": 6
+                }
+            ]
+        },
+        {
+            "id": 97,
+            "roundName": "WA Standard Bow",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 50,
+                    "dozens": 3
+                },
+                {
+                    "targetFace": "122cm",
+                    "measurement": 30,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 98,
+            "roundName": "Olympic Round",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 3,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 70,
+                    "arrows": 15
+                }
+            ]
+        },
+        {
+            "id": 99,
+            "roundName": "Olympic Round (Cadet)",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 3,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 60,
+                    "arrows": 15
+                }
+            ]
+        },
+        {
+            "id": 100,
+            "roundName": "Compound Match",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "SixZone",
+            "endSize": 3,
+            "distances": [
+                {
+                    "targetFace": "80cm",
+                    "measurement": 50,
+                    "arrows": 15
+                }
+            ]
+        },
+        {
+            "id": 101,
+            "roundName": "WA Recurve 3 sets of 6",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 70,
+                    "arrows": 18
+                }
+            ]
+        },
+        {
+            "id": 102,
+            "roundName": "WA Recurve 5 sets of 3",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 3,
+            "distances": [
+                {
+                    "targetFace": "122cm",
+                    "measurement": 70,
+                    "arrows": 15
+                }
+            ]
+        },
+        {
+            "id": 103,
+            "roundName": "WA Compound 5 sets of 3",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 3,
+            "distances": [
+                {
+                    "targetFace": "80cm",
+                    "measurement": 50,
+                    "arrows": 15
+                }
+            ]
+        },
+        {
+            "id": 104,
+            "roundName": "Frostbite",
+            "system": "Metric",
+            "type": "Outdoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 3
+                }
+            ]
+        },
+        {
+            "id": 105,
+            "roundName": "FITA 18m",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "40cm",
+                    "measurement": 18,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 106,
+            "roundName": "WA 18m",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "40cm",
+                    "measurement": 18,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 107,
+            "roundName": "FITA 18m 3-Spot",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "FiveZoneHigh",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "40cm 3-Spot",
+                    "measurement": 18,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 108,
+            "roundName": "WA 18m 3-Spot",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "FiveZoneHigh",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "40cm 3-Spot",
+                    "measurement": 18,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 109,
+            "roundName": "FITA 25m",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "60cm",
+                    "measurement": 25,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 110,
+            "roundName": "WA 25m",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "60cm",
+                    "measurement": 25,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 111,
+            "roundName": "FITA 25m - Compound",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "60cm",
+                    "measurement": 25,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 112,
+            "roundName": "WA 25m - Compound",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "60cm",
+                    "measurement": 25,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 113,
+            "roundName": "FITA 25m 3-Spot",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "FiveZoneHigh",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "60cm 3-Spot",
+                    "measurement": 25,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 114,
+            "roundName": "WA 25m 3-Spot",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "FiveZoneHigh",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "60cm 3-Spot",
+                    "measurement": 25,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 115,
+            "roundName": "Combined FITA",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "60cm",
+                    "measurement": 25,
+                    "dozens": 5
+                },
+                {
+                    "targetFace": "40cm",
+                    "measurement": 18,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 116,
+            "roundName": "WA Combined",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "60cm",
+                    "measurement": 25,
+                    "dozens": 5
+                },
+                {
+                    "targetFace": "40cm",
+                    "measurement": 18,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 117,
+            "roundName": "Combined FITA - Compound",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "60cm",
+                    "measurement": 25,
+                    "dozens": 5
+                },
+                {
+                    "targetFace": "40cm",
+                    "measurement": 18,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 118,
+            "roundName": "WA Combined 3-Spot",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "FiveZoneHigh",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "60cm 3-Spot",
+                    "measurement": 25,
+                    "dozens": 5
+                },
+                {
+                    "targetFace": "40cm 3-Spot",
+                    "measurement": 18,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 119,
+            "roundName": "Double FITA 25m - Compound",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "60cm",
+                    "measurement": 25,
+                    "dozens": 5
+                },
+                {
+                    "targetFace": "60cm",
+                    "measurement": 25,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 120,
+            "roundName": "Double WA 25m 3-Spot",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "FiveZoneHigh",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "60cm 3-Spot",
+                    "measurement": 25,
+                    "dozens": 5
+                },
+                {
+                    "targetFace": "60cm 3-Spot",
+                    "measurement": 25,
+                    "dozens": 5
+                }
+            ]
+        },
+        {
+            "id": 121,
+            "roundName": "WA Recurve Match",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "SixZone",
+            "endSize": 3,
+            "distances": [
+                {
+                    "targetFace": "40cm 3-Spot",
+                    "measurement": 18,
+                    "arrows": 15
+                }
+            ]
+        },
+        {
+            "id": 122,
+            "roundName": "WA Compound Match",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "SixZone",
+            "endSize": 3,
+            "distances": [
+                {
+                    "targetFace": "40cm 3-Spot",
+                    "measurement": 18,
+                    "arrows": 15
+                }
+            ]
+        },
+        {
+            "id": 123,
+            "roundName": "Stafford",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "TenZone",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "80cm",
+                    "measurement": 30,
+                    "dozens": 6
+                }
+            ]
+        },
+        {
+            "id": 124,
+            "roundName": "Vegas",
+            "system": "Metric",
+            "type": "Indoor",
+            "scoreType": "FiveZoneHigh",
+            "endSize": 6,
+            "distances": [
+                {
+                    "targetFace": "40cm Vegas",
+                    "measurement": 18,
+                    "dozens": 5
+                }
+            ]
+        }
+    ]
+}

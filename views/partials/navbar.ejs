@@ -1,0 +1,19 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark py-3" style="background-color: #002D8A">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-2 fw-bold" href="#"><img src="/images/icon-small.png" width="30" alt="iArcher logo"><span class="ms-3">iArcher</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+        </div>
+        <div class="navbar-nav ms-auto">
+            <a class="nav-link <%=route === 'home' ? 'active' : ''%> px-4 fw-bold" href="/">Home</a>
+            <a class="nav-link <%=route === 'rounds' ? 'active' : ''%> px-4 fw-bold" href="/rounds">Rounds</a>
+            <a class="nav-link <%=route === 'howto' ? 'active' : ''%> px-4 fw-bold" href="/howto">How To</a>
+            <a class="nav-link <%=route === 'contact' ? 'active' : ''%> px-4 fw-bold" href="/contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
