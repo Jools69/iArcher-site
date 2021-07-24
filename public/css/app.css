@@ -199,10 +199,12 @@ h1 {
 }
 
 .scrollableContainer {
-    height: 80vh;
+    height: 70vh;
     overflow-y: scroll;
     margin-bottom: 2em;
     margin-top: 2em;
+    position: relative;
+    scroll-behavior: smooth;
 }
 
 .scrollableContainer::-webkit-scrollbar {
@@ -265,6 +267,17 @@ h1 {
     font-weight: 300;
     color: var(--tertiary-colour);
     text-align: center;
+}
+
+.distanceItem {
+    padding-left: 0;
+}
+
+.distanceEntry {
+    display: inline-block;
+    min-width: 9ch;
+    text-align: right;
+    margin-right:1em;
 }
 
 /* ======================================== */
@@ -346,5 +359,10 @@ h1 {
     .rounds-title {
         font-size: 2.5em;
         text-align: center;
+    }
+
+    .roundDetails {
+        font-size: 0.85rem;
+        width: 95%;
     }
 }

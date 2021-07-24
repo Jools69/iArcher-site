@@ -55,6 +55,21 @@
                 };
         }
     }
+
+    function calcEnds (distance, endSize) {
+      const arrows = distance.arrows === undefined ? distance.dozens * 12 : distance.arrows;
+      return arrows/endSize;
+    }
+
+    function targetFaceDescription (targetFace) {
+      if(targetFace === "" || targetFace === undefined)
+        return "";
+      
+      if(targetFace === "80cm")
+        return `on an ${targetFace} target face`;
+
+      return `on a ${targetFace} target face`;
+    }
 %>
 
 <% layout('./layout/boilerplate') %>
@@ -80,17 +95,17 @@
                             <div class='card-body'>
                               <h5 class='card-title'><%= round.roundName %></h5>
                               <p class='card-text'>An <%= round.type %> <%= round.system %> round<br>Uses <%= mapScoretype(round.scoreType).description %> scoring<br>Ends are shot in groups of <%= round.endSize %> arrows</p>
-                              <p>Distances:</p>
+                              <p style="margin-bottom: 0; font-weight: bold;">Distances:</p>
                               <ul class='list-group list-group-flush'>
                               <% for (distance of round.distances) { %> 
-                                <li class='list-group-item'><span class='distanceEntry'><%= `${distance.measurement} ${round.system === 'Imperial' ? 'Yards' : 'Metres'}`%></span></li>
+                                <li class='list-group-item distanceItem'><span class='distanceEntry'><%= `${distance.measurement} ${round.system === 'Imperial' ? 'Yards' : 'Metres'}:`%></span>
+                                                                         <span><%=distance.dozens !== undefined ? `${distance.dozens} dozen ` : distance.arrows %> arrows (<%=calcEnds(distance, round.endSize)%> ends of <%=round.endSize%>)</span>
+                                                                         <span><%=targetFaceDescription(distance.targetFace)%></span></li>
                               <% } %> 
                             </ul>
                             </div>
                             <ul class='list-group list-group-flush'>
-                              <li class='list-group-item'>An item</li>
-                              <li class='list-group-item'>A second item</li>
-                              <li class='list-group-item'>A third item</li>
+                              <li class='list-group-item'>Total Arrows: 144 Max Score: 555</li>
                             </ul>
                           </div>
                     </div>
@@ -101,3 +116,4 @@
         <% } %>
     </div>
 </div>
+<script src='/js/eventHandlers.js'></script>
