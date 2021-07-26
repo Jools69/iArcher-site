@@ -63,12 +63,21 @@
 
     function targetFaceDescription (targetFace) {
       if(targetFace === "" || targetFace === undefined)
-        return "";
+        return { prefix: '',
+                 targetFace: ''};
       
       if(targetFace === "80cm")
-        return `on an ${targetFace} target face`;
+        return { prefix: 'on an',
+                 targetFace: `${targetFace} target face`};
 
-      return `on a ${targetFace} target face`;
+      return { prefix: 'on a',
+               targetFace: `${targetFace} target face`};;
+    }
+
+    function totalArrows (round) {
+      return round.distances.reduce((acc, dist) => {
+        return acc + (dist.dozens === undefined ? dist.arrows : dist.dozens * 12);
+      }, 0);
     }
 %>
 
@@ -98,14 +107,27 @@
                               <p style="margin-bottom: 0; font-weight: bold;">Distances:</p>
                               <ul class='list-group list-group-flush'>
                               <% for (distance of round.distances) { %> 
-                                <li class='list-group-item distanceItem'><span class='distanceEntry'><%= `${distance.measurement} ${round.system === 'Imperial' ? 'Yards' : 'Metres'}:`%></span>
-                                                                         <span><%=distance.dozens !== undefined ? `${distance.dozens} dozen ` : distance.arrows %> arrows (<%=calcEnds(distance, round.endSize)%> ends of <%=round.endSize%>)</span>
-                                                                         <span><%=targetFaceDescription(distance.targetFace)%></span></li>
+                                <li class='list-group-item distanceItem'>
+                                  <div class="row">
+                                    <div class="col-md-3 col-4"><span class='distanceEntry'><%= `${distance.measurement} ${round.system === 'Imperial' ? 'Yards' : 'Metres'}:`%></span></div>
+                                    <div class="col-md-9 col-8">
+                                      <span class='d-none d-lg-inline-block'><%=distance.dozens !== undefined ? `${distance.dozens} dozen ` : distance.arrows %> arrows - </span><span> <%=calcEnds(distance, round.endSize)%> ends of <%=round.endSize%> - </span>
+                                      <span class='d-none d-lg-inline-block'><%=targetFaceDescription(distance.targetFace).prefix%></span><span> <%=targetFaceDescription(distance.targetFace).targetFace%></span>
+                                    </div>
+                                  </div>
+                                </li>
                               <% } %> 
                             </ul>
                             </div>
                             <ul class='list-group list-group-flush'>
-                              <li class='list-group-item'>Total Arrows: 144 Max Score: 555</li>
+                              <li class='list-group-item'>
+                                <div class="row py-2">
+                                  <div class="col-md-4 col-5 rowLabel">Total Arrows:</div>
+                                  <div class="col-md-2 col-7"><%= totalArrows(round) %> </div>
+                                  <div class="col-md-3 col-5 rowLabel">Max Score:</div>
+                                  <div class="col-md-3 col-7"><%= totalArrows(round) * mapScoretype(round.scoreType).maxArrow %></div>
+                                </div>
+                              </li>
                             </ul>
                           </div>
                     </div>

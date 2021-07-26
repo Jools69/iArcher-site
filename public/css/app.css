@@ -239,6 +239,14 @@ h1 {
     color: white;
 }
 
+.accordion-button:focus {
+    box-shadow: 0px 0px 0 1px var(--accent-colour-verylight);
+}
+
+.accordion-button:focus.collapsed {
+    box-shadow: none;
+}
+
 .accordion-button::after {
     display: none;
 }
@@ -278,6 +286,11 @@ h1 {
     min-width: 9ch;
     text-align: right;
     margin-right:1em;
+}
+
+.rowLabel {
+    font-weight: bold;
+    text-align: center;
 }
 
 /* ======================================== */
@@ -340,6 +353,10 @@ h1 {
 
     .sectionHeading {
         font-size: 1.5em;
+    }
+    
+    .rowLabel {
+        text-align: right;
     }
 }
 
