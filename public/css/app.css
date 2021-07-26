@@ -12,12 +12,12 @@
 }
 
 * {
- box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Poppins', 'Roboto', sans-serif;
-    background: radial-gradient(circle at 0%, white 0%, white 40%, rgb(247, 247, 247) 50%, rgba(224,224,224,1) 60%, rgba(83,83,83,1) 100%);
+    background: radial-gradient(circle at 0%, white 0%, white 40%, rgb(247, 247, 247) 50%, rgba(224, 224, 224, 1) 60%, rgba(83, 83, 83, 1) 100%);
     /* background: radial-gradient(circle at 0%, rgba(250, 250, 204, 1) 0%, rgb(254, 147, 147) 33%, rgb(97, 140, 250) 49%, rgb(106, 106, 106) 72%, white 93%,  rgb(173, 255, 173) 100%); */
     /* background: radial-gradient(circle at 0%, white 0%, rgb(210, 255, 252) 40%, rgb(109, 252, 174) 50%, rgba(60, 0, 80,1) 100%); */
     background-attachment: fixed;
@@ -113,7 +113,7 @@ h1 {
     padding: 0.75em;
     color: white;
     /* background-color: var(--primary-colour); */
-    background: linear-gradient(170deg, var(--primary-colour), var(--secondary-colour)) ;
+    background: linear-gradient(170deg, var(--primary-colour), var(--secondary-colour));
     font-size: 1.5em;
     font-weight: medium;
     text-transform: uppercase;
@@ -165,7 +165,7 @@ h1 {
     color: rgb(60, 60, 60);
 }
 
-.carousel-control-prev{
+.carousel-control-prev {
     margin-left: -100px;
 }
 
@@ -208,12 +208,13 @@ h1 {
 }
 
 .scrollableContainer::-webkit-scrollbar {
-    width: 0.75em; 
+    width: 0.75em;
     /* height: 4px;  */
-    background: white; 
+    background: white;
 }
-.scrollableContainer::-webkit-scrollbar-thumb { 
-    background-color: var(--accent-colour-medium); 
+
+.scrollableContainer::-webkit-scrollbar-thumb {
+    background-color: var(--accent-colour-medium);
     /* -webkit-border-radius: 5px;
     border-radius: 5px; */
 }
@@ -252,7 +253,7 @@ h1 {
 }
 
 .accordion-body {
-    background: linear-gradient(100deg, white 0%, white 60%, rgba(224,224,224,1) 80%, rgb(133, 133, 133) 100%);
+    background: linear-gradient(100deg, white 0%, white 60%, rgba(224, 224, 224, 1) 80%, rgb(133, 133, 133) 100%);
 }
 
 .roundDetails {
@@ -285,7 +286,7 @@ h1 {
     display: inline-block;
     min-width: 9ch;
     text-align: right;
-    margin-right:1em;
+    margin-right: 1em;
 }
 
 .rowLabel {
@@ -343,10 +344,10 @@ h1 {
         padding-bottom: 1em;
     }
 
-    .carousel-control-prev{
+    .carousel-control-prev {
         margin-left: -50px;
     }
-    
+
     .carousel-control-next {
         margin-right: -50px;
     }
@@ -354,7 +355,7 @@ h1 {
     .sectionHeading {
         font-size: 1.5em;
     }
-    
+
     .rowLabel {
         text-align: right;
     }
@@ -381,5 +382,16 @@ h1 {
     .roundDetails {
         font-size: 0.85rem;
         width: 95%;
+    }
+}
+
+/* Extra-small screens and below */
+/* ======================== */
+
+@media screen and (max-width: 575px) {
+
+    .distanceEntry {
+        text-align: left;
+        font-style: italic;
     }
 }

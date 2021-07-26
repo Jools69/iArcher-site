@@ -109,8 +109,8 @@
                               <% for (distance of round.distances) { %> 
                                 <li class='list-group-item distanceItem'>
                                   <div class="row">
-                                    <div class="col-md-3 col-4"><span class='distanceEntry'><%= `${distance.measurement} ${round.system === 'Imperial' ? 'Yards' : 'Metres'}:`%></span></div>
-                                    <div class="col-md-9 col-8">
+                                    <div class="col-md-3 col-sm-4"><span class='distanceEntry'><%= `${distance.measurement} ${round.system === 'Imperial' ? 'Yards' : 'Metres'}:`%></span></div>
+                                    <div class="col-md-9 col-sm-8 col-12">
                                       <span class='d-none d-lg-inline-block'><%=distance.dozens !== undefined ? `${distance.dozens} dozen ` : distance.arrows %> arrows - </span><span> <%=calcEnds(distance, round.endSize)%> ends of <%=round.endSize%> - </span>
                                       <span class='d-none d-lg-inline-block'><%=targetFaceDescription(distance.targetFace).prefix%></span><span> <%=targetFaceDescription(distance.targetFace).targetFace%></span>
                                     </div>
