@@ -227,7 +227,7 @@ h1 {
     padding: 0.5em;
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 10;
 }
 
 .accordion-item {
@@ -365,6 +365,7 @@ h1 {
 /* ======================== */
 
 @media screen and (max-width: 991px) {
+
     .info {
         min-height: 32vh;
         padding-bottom: 1em;
@@ -393,5 +394,22 @@ h1 {
     .distanceEntry {
         text-align: left;
         font-style: italic;
+    }
+
+    .hero-title {
+        font-size: 5em;
+    }
+
+    .info {
+        font-size: 0.9em;
+    }
+}
+
+/* Adjust the height of the info container when the screen height goes below 1139 px */
+/* ================================================================================= */
+
+@media screen and (max-height: 1138pc) {
+    .info {
+        min-height: 40vh;
     }
 }

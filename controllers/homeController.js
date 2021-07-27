@@ -17,7 +17,7 @@ module.exports.index = (req, res) => {
             alt: 'completed scoring screenshot',
             header: 'Scoring Complete',
             paras: [
-                "Shoot any of the 125 built-in rounds, or your own custom rounds.",
+                "Shoot any of the 100 built-in rounds, or your own custom rounds.",
                 "When done, see your arrow stats, final Classification (if applicable) and Handicap",
                 "You can also see if you’ve shot a new PB",
             ]

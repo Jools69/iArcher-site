@@ -83,7 +83,7 @@
 
 <% layout('./layout/boilerplate') %>
 <h1 class='rounds-title'>Included Rounds</h1>
-<h5 class='rounds-subtitle'>iArcher comes with <%= roundList.rounds.length %> pre-configured rounds, including all of the recognised Archery GB and World Archery rounds</h5>
+<h5 class='rounds-subtitle'>iArcher comes with <%= roundList.rounds.filter(r => r.obsolete === undefined).length %> pre-configured rounds, including all of the recognised Archery GB and World Archery rounds</h5>
 <div class='rounds-container'>
 
 
@@ -91,7 +91,7 @@
         <% for (section of roundSections) { %>
             <h2 class='sectionHeading'><%= section.name %> Rounds</h2>
             <div class='accordion' id='<%= section.id %>'>
-                <% for (round of roundList.rounds.filter( r => (r.type === section.type && r.system === section.system) )) { %>
+                <% for (round of roundList.rounds.filter( r => (r.type === section.type && r.system === section.system && r.obsolete === undefined) )) { %>
                 <div class='accordion-item'>
                   <h2 class='accordion-header' id='<%=`roundHeading${round.id}`%>'>
                     <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapse<%=round.id%>' aria-expanded='false' aria-controls='collapse<%=round.id%>'>
