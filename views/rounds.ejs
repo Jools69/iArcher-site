@@ -85,8 +85,6 @@
 <h1 class='rounds-title'>Included Rounds</h1>
 <h5 class='rounds-subtitle'>iArcher comes with <%= roundList.rounds.filter(r => r.obsolete === undefined).length %> pre-configured rounds, including all of the recognised Archery GB and World Archery rounds</h5>
 <div class='rounds-container'>
-
-
     <div class='scrollableContainer'>
         <% for (section of roundSections) { %>
             <h2 class='sectionHeading'><%= section.name %> Rounds</h2>
@@ -94,9 +92,7 @@
                 <% for (round of roundList.rounds.filter( r => (r.type === section.type && r.system === section.system && r.obsolete === undefined) )) { %>
                 <div class='accordion-item'>
                   <h2 class='accordion-header' id='<%=`roundHeading${round.id}`%>'>
-                    <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapse<%=round.id%>' aria-expanded='false' aria-controls='collapse<%=round.id%>'>
-                      <%= round.roundName %> 
-                    </button>
+                    <button class='accordion-button' type='button' data-bs-toggle='collapse' data-bs-target='#collapse<%=round.id%>' aria-expanded='false' aria-controls='collapse<%=round.id%>'><%=round.roundName%></button>
                   </h2>
                   <div id='collapse<%=round.id%>' class='accordion-collapse collapse' aria-labelledby='<%=`roundHeading${round.id}`%>' data-bs-parent='#<%= section.id %>'>
                     <div class='accordion-body'>
@@ -122,10 +118,10 @@
                             <ul class='list-group list-group-flush'>
                               <li class='list-group-item'>
                                 <div class="row py-2">
-                                  <div class="col-md-4 col-5 rowLabel">Total Arrows:</div>
-                                  <div class="col-md-2 col-7"><%= totalArrows(round) %> </div>
-                                  <div class="col-md-3 col-5 rowLabel">Max Score:</div>
-                                  <div class="col-md-3 col-7"><%= totalArrows(round) * mapScoretype(round.scoreType).maxArrow %></div>
+                                  <div class="col-sm-4 col-7 rowLabel">Total Arrows:</div>
+                                  <div class="col-sm-2 col-5"><%= totalArrows(round) %> </div>
+                                  <div class="col-sm-3 col-7 rowLabel">Max Score:</div>
+                                  <div class="col-sm-3 col-5"><%= totalArrows(round) * mapScoretype(round.scoreType).maxArrow %></div>
                                 </div>
                               </li>
                             </ul>
