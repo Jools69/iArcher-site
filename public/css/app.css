@@ -181,7 +181,7 @@ h1 {
 /* ======== ROUNDS SCREEN STYLES ========== */
 /* ======================================== */
 
-.rounds-title {
+.title {
     font-size: 4em;
     text-align: center;
 }
@@ -263,7 +263,7 @@ h1 {
     box-shadow: 5px 5px 10px rgb(218, 218, 218);
 }
 
-.card-title {
+.roundDetails .card-title {
     text-align: center;
     color: var(--tertiary-colour);
     padding-bottom: 0.5em;
@@ -273,7 +273,7 @@ h1 {
     /* text-shadow: 2px 2px 7px rgb(141, 141, 141); */
 }
 
-.card-text {
+.roundDetails .card-text {
     font-weight: 500;
     color: var(--tertiary-colour);
     text-align: center;
@@ -293,6 +293,64 @@ h1 {
 .rowLabel {
     font-weight: bold;
     text-align: center;
+}
+
+
+/* ======================================== */
+/* ======== CONTACT SCREEN STYLES ========== */
+/* ======================================== */
+
+/* .contactCard {
+    box-shadow: 10px 10px 10px rgb(187, 187, 187);
+} */
+
+.contactCard h4 {
+    color: var(--tertiary-colour);
+    padding: 0.5em;
+    margin: 0;
+}
+
+
+.contactCard h4.highlightedText {
+    color: var(--primary-colour);
+    text-align: center;
+}
+
+.imgWrapper {
+    position: relative;
+}
+
+.imgCredit {
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 0.1em;
+    margin-bottom: 0.2em;
+}
+
+.imgCredit a {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+
+.emailContainer {
+    background: linear-gradient(170deg, var(--accent-colour-dark), var(--accent-colour-light));
+}
+
+.email {
+    padding: 0.75em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.email a {
+    color: white;
+    text-decoration: none;
+}
+
+.email a:hover {
+    text-shadow: 3px 3px 10px var(--accent-colour-verylight);
 }
 
 /* ======================================== */
@@ -323,7 +381,7 @@ h1 {
         margin-bottom: 1em;
     }
 
-    .rounds-title {
+    .title {
         font-size: 2.5em;
         text-align: center;
     }
@@ -331,6 +389,12 @@ h1 {
     .roundDetails {
         font-size: 0.85rem;
         width: 95%;
+    }
+
+    .email {
+        padding-left: 0.2em;
+        padding-right: 0.2em;
+        font-size: 1.5em;
     }
 }
 
@@ -437,6 +501,12 @@ h1 {
 
     .info {
         font-size: 0.9em;
+    }
+
+    .email {
+        padding-left: 0.1em;
+        padding-right: 0.1em;
+        font-size: 1em;
     }
 }
 

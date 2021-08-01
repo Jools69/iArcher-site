@@ -3,6 +3,7 @@ const path = require('path');
 const ejsMate = require('ejs-mate');
 const homeRoutes = require('./routes/home');
 const roundsRoutes = require('./routes/rounds');
+const contactRoutes = require('./routes/contact');
 
 // create an instance of Express.
 const app = express();
@@ -26,6 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', homeRoutes);
 app.use('/rounds', roundsRoutes);
+app.use('/contact', contactRoutes);
 
 app.listen(process.env.PORT || 3000, () => {
     console.log(`Serving on port ${process.env.PORT || 3000}`);
